@@ -7,13 +7,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_GRV,         KC_Q,          KC_W,         KC_E,         KC_R,         KC_T,    /* | */    KC_Y,         KC_U,         KC_I,         KC_O,         KC_P,         KC_LBRC,
         KC_ESC,         KC_A,          LCTL_T(KC_S), LALT_T(KC_D), LSFT_T(KC_F), KC_G,    /* | */    KC_H,         RSFT_T(KC_J), RALT_T(KC_K), RCTL_T(KC_L), KC_SCLN,      KC_QUOT,
         KC_TAB,         KC_Z,          KC_X,         KC_C,         KC_V,         KC_B,    /* | */    KC_N,         KC_M,         KC_COMM,      KC_DOT,       KC_SLSH,      KC_RBRC,
-                                       KC_EQL,       KC_BSLS,      MO(1),        KC_BSPC, /* | */    KC_ENT,       MO(2),        KC_SPC,       KC_MINS
+                                       KC_EQL,       KC_BSLS,      MO(1),        KC_BSPC, /* | */    KC_SPC,       MO(2),        KC_ENT,       KC_MINS
     ),
     [1] = LAYOUT(
         KC_GRV,         KC_EXLM,       KC_AT,        KC_HASH,      KC_DLR,       KC_PERC, /* | */    KC_CIRC,      KC_AMPR,      KC_ASTR,      KC_LPRN,      KC_RPRN,      KC_EQL,
         KC_ESC,         KC_1,          LCTL_T(KC_2), LALT_T(KC_3), LSFT_T(KC_4), KC_5,    /* | */    KC_6,         RSFT_T(KC_7), RALT_T(KC_8), RCTL_T(KC_9), KC_0,         KC_MINS,
         KC_TAB,         KC_NO,         KC_NO,        KC_NO,        KC_NO,        KC_NO,   /* | */    KC_NO,        KC_NO,        KC_COMM,      KC_DOT,       KC_SLSH,      KC_BSLS,
-                                       KC_NO,        KC_NO,        KC_TRNS,      KC_NO,   /* | */    KC_ENT,       MO(3),        KC_SPC,       KC_MINS
+                                       KC_NO,        KC_NO,        KC_TRNS,      KC_NO,   /* | */    KC_SPC,       MO(3),        KC_ENT,       KC_MINS
     ),
     [2] = LAYOUT(
         KC_NO,          KC_NO,         KC_NO,        KC_NO,        KC_NO,        KC_PSCR, /* | */    KC_NO,        KC_HOME,      KC_PGUP,      KC_NO,        KC_NO,        KC_INS,
