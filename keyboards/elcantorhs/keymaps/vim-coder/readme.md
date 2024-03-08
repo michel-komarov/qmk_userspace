@@ -12,6 +12,8 @@ The left-hand part has the control keys.
 **3** Function layer with 12 Fkeys across the top row
 and all control keys on the home-row.
 
+**4** Brackets layer for C-like programming languages.
+
 ![layer-0](keymap-layer-0.png)
 
 ![layer-1](keymap-layer-1.png)
@@ -19,6 +21,8 @@ and all control keys on the home-row.
 ![layer-2](keymap-layer-2.png)
 
 ![layer-3](keymap-layer-3.png)
+
+![layer-4](keymap-layer-4.png)
 
 ![chosfox-keycaps](chosfox-keycaps.png)
 
